@@ -7,23 +7,23 @@ Boilerplate for angular project based on require.js AMD
 
 Install required node.js modules first
 
-    'npm install'
+    npm install
 
 Then grunt
 
-    'npm install grunt -g'
+    npm install grunt -g
 
 Now you can initialize project with grunt task
 
-    'grunt install'
+    grunt install
 
 ##Build
 
-    There is grunt task in the project for compiling app
+There is grunt task in the project for compiling app
 
-    'grunt build'
+    grunt build
 
-    Result is all your scripts included and minified in one file '/app/js/app.min.js' and your styles in '/app/style/styles.min.css'
+Result is all your scripts included and minified in one file `/app/js/app.min.js` and your styles in `/app/style/styles.min.css`
 
 
 
