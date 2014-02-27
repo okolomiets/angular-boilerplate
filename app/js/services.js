@@ -8,6 +8,11 @@ define(function (require, exports, module) {
                     return $http.get(apiUrl);
                 }
             }
+        }],
+        $error:[function(){
+            return function(msg){
+                alert(msg);
+            }
         }]
     }
 });

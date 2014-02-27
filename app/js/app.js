@@ -40,16 +40,16 @@ define(function (require, exports, module) {
                 template: require('text!templates/main.html')
             });
 
-        $httpProvider.interceptors.push(['$q', function ($q) {
+        $httpProvider.interceptors.push(['$q', '$error', function ($q, $error) {
             return {
                 'request': function (config) {
                     return config;
                 },
                 'response': function (response) {
                     return response;
-
                 },
                 'responseError': function (rejection) {
+                    $error('Connection error!');
                     return $q.reject(rejection);
                 }
 
