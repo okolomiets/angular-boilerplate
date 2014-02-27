@@ -1,0 +1,17 @@
+{
+    "name": "angualar-boilerplate",
+    "version": "0.0.1",
+    "description": "Angular boilerplate based on require.js",
+    "main": "",
+    "scripts": {
+    },
+    "author": "galkinrost@gmail.com",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "grunt": "~0.4.2",
+        "npm": "~1.3.25",
+        "grunt-contrib-requirejs": "~0.4.1",
+        "install": "~0.1.7",
+        "grunt-bower-task": "~0.3.4"
+    }
+}

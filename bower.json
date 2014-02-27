@@ -1,0 +1,24 @@
+{
+  "name": "angualar-require",
+  "version": "0.0.1",
+  "authors": [
+    "galkinrost@gmail.com"
+  ],
+  "description": "Angular boilerplate based on require.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.10",
+    "angular-route": "~1.2.10",
+    "requirejs-text": "~2.0.10",
+    "requirejs": "~2.1.10",
+    "bootstrap": "~3.1.1",
+    "jquery": "~2.1.0"
+  }
+}
